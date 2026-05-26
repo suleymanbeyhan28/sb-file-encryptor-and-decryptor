@@ -1,5 +1,5 @@
-# ![Logo](Resources/uygulamamin_ikonu.ico) SB File Encryptor & Decryptor
-
+# ![Logo](Resources/uygulamamin_ikonu.ico)
+ SB File Encryptor & Decryptor
 A professional-grade file security tool developed with **C#** and **Windows Forms**, designed to provide robust protection for your private and confidential data.
 
 ### 🚀 Features of the Application
