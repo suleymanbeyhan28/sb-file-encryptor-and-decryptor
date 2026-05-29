@@ -12,6 +12,13 @@ A professional-grade file security tool developed with C# and Windows Forms, des
 * **🕵️ Privacy-Focused:** Prevent unwanted access to your private and confidential files.
 * **⚙️ Reliable Technology:** Utilizes reliable encryption technology for maximum data security.
 
+### 📺 Video Demonstration
+See the application in action! Watch the full walkthrough and demonstration video on YouTube:
+https://youtu.be/iy-5eJQGd1I?si=ma4jLJ_9w1QiL3Wf
+[![Watch the Demo](https://img.youtube.com/vi/iy-5eJQGd1I/maxresdefault.jpg)](https://www.youtube.com/watch?v=SENIN_VIDEO_ID_BURAYA)
+
+*Click the preview image above to watch the video.*
+
 ### 💾 Data Policy
 This application operates **entirely offline**. It does not collect, transmit, or store any personal data on external servers. All encrypted file data remains on your local device and is never shared with third parties.
 
