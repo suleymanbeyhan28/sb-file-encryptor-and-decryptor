@@ -1,15 +1,20 @@
 <div align="center">
+<img src="Resources/uygulamamin_ikonu.ico" width="120" alt="SB File Encryptor Logo" />
 
-# ![Logo](Resources/uygulamamin_ikonu.ico)
 # SB File Encryptor & Decryptor
 
 A professional-grade file security tool developed with C# and Windows Forms, designed to provide robust encryption and secure protection for confidential files and sensitive data.
 
 <br>
 
-![C#](https://img.shields.io/badge/Language-C%23-blue)
-![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
-![License](https://img.shields.io/badge/License-Dual_License-brightgreen)
+<div align="center">
+
+<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=sharp&logoColor=white" />  
+<img src="https://img.shields.io/badge/.NET-WinForms-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />  
+<img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />  
+<img src="https://img.shields.io/badge/License-Dual_License-2ea44f?style=for-the-badge&logo=gitbook&logoColor=white" />
+
+</div>
 
 </div>
 
@@ -65,12 +70,51 @@ This application is built with security, performance, and reliability in mind:
 * **Real-Time Progress Tracking** – Live progress updates during encryption/decryption.
 * **Modern UX Components** – Snackbar notifications, password visibility toggle, character counter, and animated progress UI.
 * **DPI-Aware Interface** – Fully responsive UI across different display scaling settings.
+> [!IMPORTANT]
+> A unique random IV is generated per encryption operation and stored alongside the encrypted file to ensure cryptographic security and prevent pattern leakage.
 
-> ⚠️ Note: A unique random IV is generated per encryption operation and stored alongside the encrypted file to ensure cryptographic security and prevent pattern leakage.
+---
+## 🎨 UI Components & Custom Controls
+
+The application uses a lightweight custom UI library to enhance the default Windows Forms experience with modern and reusable components.
 
 ---
 
-## 💻 System Requirements
+### 🧩 SBCustomControls.dll
+
+A custom-built UI library focused primarily on modern button design and enhanced user interaction.
+
+**Purpose:**
+- Provides modern rounded buttons for WinForms UI
+- Replaces default system buttons with styled components
+- Ensures consistent look and feel across the application
+
+**Features:**
+- Rounded / modern button styles
+- Hover and click state animations
+- DPI-aware rendering
+- Lightweight and reusable design
+- Easy integration into WinForms projects
+
+> 📦 **Location:** `Lib/SBCustomControls.dll`
+
+---
+
+### 🔔 Snackbar Notification System
+
+A modern, non-blocking notification system used instead of traditional `MessageBox`, improving user experience by avoiding interruptions.
+
+**Features:**
+- Toast-style notifications (success, error, warning, info)
+- Auto-dismiss with configurable duration (timeout support)
+- Smooth animations and modern UI behavior
+- Keeps application flow uninterrupted
+
+> 📦 **Location:** `UI/Snackbar.cs`
+
+---
+
+## 🖥️ System Requirements
 
 ### Minimum
 
@@ -105,13 +149,29 @@ git clone https://github.com/suleymanbeyhan28/sb-file-encryptor-and-decryptor.gi
 
 ---
 
-## 📺 Video Demonstration
+## 🖼️ Preview
 
-See the application in action by watching the full walkthrough and demonstration video:
+<p align="center">
+  <img src="Resources/App-Screenshot.png" width="90%" alt="Application Preview" />
+</p>
 
-[![Watch the Demo](https://img.youtube.com/vi/iy-5eJQGd1I/maxresdefault.jpg)](https://www.youtube.com/watch?v=iy-5eJQGd1I)
+<p align="center">
+  <i>Modern WinForms UI with custom controls and enhanced UX</i>
+</p>
 
-*Click the preview image above to watch the video.*
+---
+
+## 🎬 Video Demonstration
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=iy-5eJQGd1I">
+    <img src="https://img.youtube.com/vi/iy-5eJQGd1I/maxresdefault.jpg" width="90%" alt="Video Demo" />
+  </a>
+</p>
+
+<p align="center">
+  <b> Click the image to watch the full demonstration</b>
+</p>
 
 ---
 
