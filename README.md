@@ -1,11 +1,17 @@
+<div align="center">
+
 # ![Logo](Resources/uygulamamin_ikonu.ico)
 # SB File Encryptor & Decryptor
 
 A professional-grade file security tool developed with C# and Windows Forms, designed to provide robust encryption and secure protection for confidential files and sensitive data.
 
+<br>
+
 ![C#](https://img.shields.io/badge/Language-C%23-blue)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
 ![License](https://img.shields.io/badge/License-Dual_License-brightgreen)
+
+</div>
 
 ---
 
@@ -30,8 +36,8 @@ A professional-grade file security tool developed with C# and Windows Forms, des
 * **AES-256-CBC Encryption** for strong file protection.
 * **PBKDF2-SHA256 Key Derivation** with **100,000 iterations**.
 * **Unique 32-byte Random Salt** generated for every encrypted file.
-* **Cryptographically Secure Random Number Generation (CSPRNG)**.
-* **Encrypted File Signature Validation** to identify files encrypted by this application.
+* **Cryptographically Secure Random Number Generation (CSPRNG)** for secure salt and IV generation.
+* **Encrypted File Signature Validation (SB_EncryptedFile header)** – Ensures file authenticity and detects invalid or unsupported files before decryption.
 * **Password Validation Protection** to detect incorrect passwords.
 * **Corrupted File Detection** to prevent invalid decryption attempts.
 * **Local-Only Processing** – No cloud services, uploads, telemetry, or external communication.
@@ -44,21 +50,23 @@ This application is built with security, performance, and reliability in mind:
 
 * **AES-256 Encryption** – Industry-standard AES-256-CBC encryption.
 * **PBKDF2-SHA256 Key Derivation** – 100,000 iterations with unique 32-byte random salts.
-* **Secure Random Generation** – Cryptographically secure salt generation.
-* **File Signature Verification** – Detects invalid or unsupported files before decryption.
+* **Secure Random Generation (CSPRNG)** – Ensures cryptographically strong randomness for salts and IVs.
+* **File Signature Validation (SB_EncryptedFile header)** – Ensures file integrity and authenticity before decryption.
 * **Corruption & Password Validation** – Detects corrupted files and incorrect passwords.
 * **Asynchronous Processing** – Uses `async/await` to keep the UI responsive.
 * **Large File Support** – Stream-based processing prevents loading entire files into memory.
 * **1 MB Buffered I/O** – Optimized file streaming for large file performance.
-* **Operation Cancellation** – Encryption and decryption can be canceled safely.
+* **Stream-Based File Processing** – Processes files in chunks without full memory usage.
+* **Operation Cancellation** – Encryption and decryption can be safely canceled.
 * **Automatic Cleanup** – Removes partially generated output files after cancellation or failure.
-* **DLL Integrity Verification** – SHA-256 hash validation detects modified or tampered dependency files.
-* **Single Instance Protection** – Prevents multiple instances of the application from running simultaneously.
 * **Disk Space Validation** – Verifies available storage space before processing.
-* **Locked File Detection** – Prevents operations on files currently used by other applications.
+* **Locked File Detection** – Prevents operations on files currently in use by other applications.
 * **Input/Output Collision Protection** – Prevents accidental overwriting of source files.
-* **Modern UX Components** – Animated progress indicators, Snackbar notifications, password visibility toggle, character counters, and smooth UI transitions.
-* **DPI-Aware Interface** – Fully responsive and crisp UI on different display scaling settings.
+* **Real-Time Progress Tracking** – Live progress updates during encryption/decryption.
+* **Modern UX Components** – Snackbar notifications, password visibility toggle, character counter, and animated progress UI.
+* **DPI-Aware Interface** – Fully responsive UI across different display scaling settings.
+
+> ⚠️ Note: A unique random IV is generated per encryption operation and stored alongside the encrypted file to ensure cryptographic security and prevent pattern leakage.
 
 ---
 
