@@ -3,7 +3,9 @@
 
 # SB File Encryptor & Decryptor
 
-A professional-grade file security tool developed with C# and Windows Forms, designed to provide robust encryption and secure protection for confidential files and sensitive data.
+This project is not open source. It is distributed as source-available software under a custom license for review and evaluation purposes.
+
+A C# and Windows Forms based file encryption and decryption tool designed for secure local file protection and reliable handling of sensitive data.
 
 <br>
 
@@ -12,7 +14,7 @@ A professional-grade file security tool developed with C# and Windows Forms, des
 <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=sharp&logoColor=white" />  
 <img src="https://img.shields.io/badge/.NET-WinForms-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />  
 <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />  
-<img src="https://img.shields.io/badge/License-Dual_License-2ea44f?style=for-the-badge&logo=gitbook&logoColor=white" />
+<img src="https://img.shields.io/badge/License-Source_Available-2ea44f?style=for-the-badge&logo=gitbook&logoColor=white" />
 
 </div>
 
@@ -185,9 +187,9 @@ All encryption and decryption operations occur locally on your device. Your file
 
 ---
 
-## 🤝 Contributing
+## 🤝 Source Code Contributions
 
-Contributions are highly encouraged.
+Bug reports, suggestions, and improvement ideas are welcome.
 
 Whether you'd like to:
 
@@ -238,9 +240,11 @@ The software is free for personal, non-commercial use.
 
 For any commercial, corporate, educational, governmental, research, or business-related use, obtaining a commercial license is mandatory.
 
-### Open-Source Contributions
+### Contributions
 
 Forks and Pull Requests are welcome for improving the project.
+
+The source code is provided under a custom license for review and learning purposes. Contributions via pull requests are welcome and may be incorporated at the author's discretion.
 
 However:
 
@@ -249,6 +253,16 @@ However:
 * The original copyright notice must remain intact.
 
 For complete terms, please read the full [LICENSE](LICENSE) file.
+
+---
+
+## 💬 Share Feedback
+
+If you would like to share feedback, report issues, or suggest improvements, you can use the form below:
+
+👉 https://forms.gle/1r5Ho11SU1vEXY9e9
+
+Your feedback helps improve the project and is greatly appreciated.
 
 ---
 
@@ -264,14 +278,12 @@ For commercial licensing inquiries, feature requests, bug reports, or feedback:
 
 sbprojects.requests@gmail.com
 
-*Typical response time: 24–48 hours.*
-
 ---
 
 ## ⭐ Support the Project
 
-If you found this project useful, please consider giving it a star on GitHub.
+If you explore or use this project, a GitHub star or feedback is always appreciated.
 
 Your support helps the project grow and motivates future development.
 
-⭐ **Star the repository if you like it!** ⭐
+⭐ **Star the repository if you like it!** ⭐Star the repository if you like it!** ⭐
