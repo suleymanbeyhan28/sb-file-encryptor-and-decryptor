@@ -268,7 +268,7 @@ Your feedback helps improve the project and is greatly appreciated.
 
 ## 📩 Contact & Commercial Licensing
 
-For commercial licensing inquiries, feature requests, bug reports, or feedback:
+For commercial licensing inquiries:
 
 ### 🌐 Website / Blog
 
