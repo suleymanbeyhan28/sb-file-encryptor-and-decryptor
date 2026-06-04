@@ -151,6 +151,15 @@ git clone https://github.com/suleymanbeyhan28/sb-file-encryptor-and-decryptor.gi
 
 ---
 
+### Downloads & Releases
+
+Pre-built executable versions of the application are available in the GitHub Releases section.
+
+👉 https://github.com/suleymanbeyhan28/sb-file-encryptor-and-decryptor/releases
+
+You can download the latest stable version without building the project.
+
+---
 ## 🖼️ Preview
 
 <p align="center">
@@ -158,7 +167,7 @@ git clone https://github.com/suleymanbeyhan28/sb-file-encryptor-and-decryptor.gi
 </p>
 
 <p align="center">
-  <i>Modern WinForms UI with custom controls and enhanced UX</i>
+  <b> Modern WinForms UI with custom controls and enhanced UX </b>
 </p>
 
 ---
@@ -286,4 +295,4 @@ If you explore or use this project, a GitHub star or feedback is always apprecia
 
 Your support helps the project grow and motivates future development.
 
-⭐ **Star the repository if you like it!** ⭐Star the repository if you like it!** ⭐
+⭐ **Star the repository if you like it!** ⭐
