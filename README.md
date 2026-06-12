@@ -223,7 +223,7 @@ A modern notification system used instead of traditional modal message boxes.
 ### Clone the Repository
 
 ```bash
-git clone [https://github.com/suleymanbeyhan28/sb-file-encryptor-and-decryptor.git](https://github.com/suleymanbeyhan28/sb-file-encryptor-and-decryptor.git)
+git clone https://github.com/suleymanbeyhan28/sb-file-encryptor-and-decryptor.git
 ```
 
 ### Build and Run
@@ -337,6 +337,7 @@ If you see the value in this architecture and want to make this comprehensive op
 ---
 
 **📊 Campaign Progress**  
+<br>
 `[░░░░░░░░░░]` **0%** *(Current: 0 BTC / Target: 1 BTC)*  
 *Note: The progress bar is updated weekly. (Last Update: June 11, 2026)*
 
