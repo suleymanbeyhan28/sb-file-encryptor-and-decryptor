@@ -174,30 +174,17 @@ Your files remain under your control and are never uploaded or transmitted to th
 
 A lightweight custom UI library used throughout the application.
 
-**Features:**
-
-* Modern rounded buttons
-* Hover and click animations
-* DPI-aware rendering
-* Consistent application styling
-* Lightweight reusable controls
-
-> 📦 **Location:** `Lib/SBCustomControls.dll`
+| ✨ Features | 🔗 Resources |
+| :--- | :--- |
+| • Modern rounded buttons<br>• Hover and click animations<br>• DPI-aware rendering<br>• Consistent application styling<br>• Lightweight reusable controls | 📦 **Location:**<br>`Lib/SBCustomControls.dll` |
 
 ### 🔔 Snackbar Notification System
 
-A modern notification system used instead of traditional modal message boxes.
+A modern notification system designed to provide elegant user feedback without interrupting the workflow.
 
-**Features:**
-
-* Success notifications
-* Error notifications
-* Warning notifications
-* Information notifications
-* Auto-dismiss support
-* Smooth animations
-
-> 📦 **Location:** `UI/Snackbar.cs`
+| ✨ Features | 🔗 Resources |
+| :--- | :--- |
+| • Success, Error, Warning, Info states<br>• **Customizable Duration:** Define exactly how many milliseconds the message should stay visible.<br>• Auto-dismiss functionality<br>• Smooth UI animations<br>• Non-blocking architecture | 📦 **Local:** `UI/Snackbar.cs`<br><br>🌐 **Standalone Component:**<br>[**👉 Go to SB Snackbar Repo**](https://github.com/suleymanbeyhan28/sb-winforms-snackbar) |
 
 ---
 
