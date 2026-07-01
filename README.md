@@ -326,7 +326,7 @@ If you see the value in this architecture and want to make this comprehensive op
 **📊 Campaign Progress**  
 <br>
 `[░░░░░░░░░░]` **0%** *(Current: 0 BTC / Target: 1 BTC)*  
-*Note: The progress bar is updated weekly. (Last Update: June 11, 2026)*
+*Note: The progress bar is updated weekly. (Last Update: July 2, 2026)*
 
 > [!WARNING]
 > **Important Technical Note:** To ensure successful delivery of your contribution, please make sure to select the **'Bitcoin' (BTC) network** when initiating the transfer. Only transfers made via the original Bitcoin network are supported.
