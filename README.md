@@ -2,22 +2,20 @@
 <img src="Resources/uygulamamin_ikonu.ico" width="120" alt="SB File Encryptor Logo" />
 
 # SB File Encryptor & Decryptor
+> 🔒 **Privacy First** • 💻 **Fully Offline** • 🚫 **No Telemetry** • 🔑 **AES-256 Encryption**
 
-Secure Local File Encryption & Decryption for Windows
-
-Protect documents, archives, photos, videos, backups, and sensitive files using strong AES-256 encryption while keeping everything entirely under your control.
-
+Protect documents, archives, photos, videos, backups, and other sensitive files using industry-standard AES-256-CBC encryption—entirely offline and fully under your control.
 <br>
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=sharp&logoColor=white" />  
-<img src="https://img.shields.io/badge/.NET-WinForms-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />  
-<img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />  
-<img src="https://img.shields.io/badge/License-Source_Available-2ea44f?style=for-the-badge&logo=gitbook&logoColor=white" />
+<br>
+<img src="Resources/badges.png"
+     width="850"
+     alt="Technology Stack"/>
+<br>
 
 </div>
-
 </div>
 
 <br>
@@ -60,6 +58,24 @@ Pre-built executable versions are available in GitHub Releases.
 
 ---
 
+## 🎯 Designed For
+
+SB File Encryptor & Decryptor is designed for anyone who wants complete local ownership of their files.
+
+Perfect for:
+
+- 👤 Individual users protecting personal documents
+- 💼 Freelancers handling client files
+- 🏢 Small businesses managing confidential data
+- 📦 Backup archives
+- 📷 Personal photos and videos
+- 📄 Sensitive PDF and Office documents
+- 💾 External drives and offline storage
+
+Whether you are encrypting a single file or an entire archive, the application is designed to remain intuitive, predictable, and fully under your control.
+
+---
+
 ## 🔒 Why SB File Encryptor & Decryptor?
 
 SB File Encryptor & Decryptor is a Windows desktop application designed for users who want complete local control over their data.
@@ -72,8 +88,8 @@ No technical expertise is required, making the application accessible to users o
 
 ### Key Benefits
 
-* 🔐 **AES-256 Encryption** – For strong file protection.
-* 🔑 **Access Control** – Password-based access.
+* 🔐 **AES-256-CBC Encryption** – Industry-standard file encryption.
+* 🔑 **Access Control** – Password-Based Encryption.
 * 📁 **Universal Compatibility** – Compatible with virtually any file type.
 * ⚡ **Efficient Processing** – Fast with real-time progress monitoring.
 * 🚫 **Privacy First** – No cloud services, telemetry, or analytics.
@@ -89,7 +105,7 @@ Whether you're protecting personal documents, backups, archives, business files,
 
 * 📁 **Format Support** – Encrypt and decrypt virtually any file format.
 * 🔑 **Secure Access** – Password-protected access to encrypted files.
-* 🛡️ **Data Security** – Protection against unauthorized access.
+* 🛡️ **Unauthorized Access Protection** – Protection against unauthorized access.
 
 ### User Experience
 
@@ -104,7 +120,7 @@ Whether you're protecting personal documents, backups, archives, business files,
 
 * 🔄 **Large File Support** – Stream-based processing for large files.
 * ⏹️ **Operation Cancellation** – Safely cancel running tasks.
-* 🧹 **Automatic Cleanup** – Cleanup after failures or cancellation.
+* 🧹 **Automatic Cleanup** – Removes temporary files after failures or cancellation.
 * 🔒 **Locked File Detection** – Avoids file conflicts.
 * 💾 **Storage Check** – Disk space validation.
 * 🛡️ **Collision Protection** – Input/output collision protection.
@@ -118,8 +134,7 @@ Security is the primary focus of this project.
 ### Encryption
 
 * **AES-256-CBC Encryption**
-* **Unique IV** generated for every encryption operation.
-* **Cryptographically Secure Random Number Generation (CSPRNG)**
+* **AES Key and IV derived via PBKDF2-SHA256**
 
 ### Key Derivation
 
@@ -130,12 +145,21 @@ Security is the primary focus of this project.
 ### Validation & Protection
 
 * **Custom Encrypted File Signature Validation** ("SB_EncryptedFile").
-* **Password Validation Protection** to detect incorrect passwords.
+* **Password Verification through Cryptographic Validation** to detect incorrect passwords.
 * **Corrupted File Detection**
 * **Unsupported File Detection**
 
 > [!IMPORTANT]
-> A unique random IV is generated for every encryption operation and stored alongside the encrypted file to prevent pattern leakage and strengthen cryptographic security.
+> A unique 32-byte cryptographically secure random salt is generated for every encryption operation. The salt is stored alongside the encrypted file and is used with PBKDF2-SHA256 to derive a unique AES-256 encryption key and IV for each file.
+
+### Encryption Workflow
+<div align="center">
+<img src="Resources/workflow.png"
+     width="750"
+     alt="Workflow"/>
+<br>
+
+</div>
 
 ---
 
@@ -157,14 +181,40 @@ Your files remain under your control and are never uploaded or transmitted to th
 
 ---
 
+## ✅ Why Trust This Project?
+
+This project was not built as a weekend experiment.
+
+The application was developed from the ground up with a strong emphasis on security, maintainability, and long-term reliability rather than rapid feature delivery.
+
+It represents months of engineering, iterative refinement, UI development, security research, performance optimization, and extensive real-world testing.
+
+The project has been engineered with maintainability in mind, making future improvements predictable without sacrificing stability.
+
+### Built Around Clear Principles
+
+- 🔒 Privacy-first architecture
+- 💻 Fully offline operation
+- 🧩 Production-ready codebase
+- 🧪 Thoroughly tested before release
+- ⚙️ Designed for long-term maintainability
+- 🚫 No telemetry. No analytics. No hidden services.
+
+Every architectural decision prioritizes reliability, transparency, and user ownership over unnecessary complexity.
+
+---
+
 ## ⚙️ Technical Highlights
 
-* **Async/await architecture**
-* **Stream-based file processing**
-* **1 MB buffered I/O**
-* **Responsive UI during long operations**
-* **Automatic cleanup mechanisms**
-* **Secure file validation workflow**
+These engineering decisions were made to maximize reliability, responsiveness, and performance.
+
+| Technology | Why It Matters |
+| :--- | :--- |
+| Async/await | Keeps the UI responsive during long operations. |
+| Stream-based Processing | Encrypts very large files without excessive memory usage. |
+| 1 MiB Buffered I/O | Improves throughput while maintaining stability. |
+| Automatic Cleanup | Prevents leftover temporary files after failures or cancellations. |
+| Secure Validation Workflow | Detects unsupported or corrupted encrypted files before processing. |
 
 ---
 
@@ -176,7 +226,7 @@ A lightweight custom UI library used throughout the application.
 
 | ✨ Features | 🔗 Resources |
 | :--- | :--- |
-| • Modern rounded buttons<br>• Hover and click animations<br>• DPI-aware rendering<br>• Consistent application styling<br>• Lightweight reusable controls | 📦 **Location:**<br>`Lib/SBCustomControls.dll` |
+| • Modern rounded controls<br>• Hover and click animations<br>• DPI-aware rendering<br>• Consistent application styling<br>• Lightweight reusable controls | 📦 **Location:**<br>`Lib/SBCustomControls.dll` |
 
 ### 🔔 Snackbar Notification System
 
@@ -242,7 +292,7 @@ A commercial license is required for:
 * Government agencies
 * Educational institutions
 * Research organizations
-* Revenue-generating activities
+* Commercial or revenue-generating use
 * Professional environments
 
 If your organization uses this software to protect business-related data, a commercial license is required.
@@ -253,15 +303,30 @@ If your organization uses this software to protect business-related data, a comm
 ---
 
 <a id="unlock-ecosystem"></a>
+
+# 🌍 Beyond This Project
+
+The following section describes the long-term vision behind the SB ecosystem and explains how community support will help transform multiple production-ready projects into fully open-source software.
+
+---
+
 ## ❤️ Unlock the Open-Source Ecosystem
 
 ### 🎯 Open-Source Milestone: The Complete SB Note Management & Developer Ecosystem
 
 Over the past 1.5+ years, I have developed a secure, production-ready note management ecosystem: **SB Notepad** (Windows) and **SB Note Viewer PRO** (Android). 
 
-If community donations reach a total of **1 BTC**, I will release the complete codebase for both projects as open-source, completely free of any licenses or restrictions, and I will also convert my existing **SB File Encryptor & Decryptor** repository to an open-source license.
+This milestone is not a crowdfunding campaign for an unfinished idea.
 
-👉 **[Review the operational logic and UI screens of SB Notepad on my blog.](https://suleymanbprojects.blogspot.com/2026/04/sb-notepad.html)**
+The software already exists.
+
+The architecture is already complete.
+
+The milestone exists to transform years of private engineering work into a complete public resource for the developer community.
+
+Once the goal is reached, every promised project will be published under an open-source license according to the roadmap described below.
+
+👉 **[Explore the architecture, workflow, and UI of SB Notepad on my blog.](https://suleymanbprojects.blogspot.com/2026/04/sb-notepad.html)**
 
 ### Why This Architecture Matters
 
@@ -284,7 +349,11 @@ Building a comprehensive architecture from scratch—especially a note managemen
 
 You might ask: "What is the proof that the projects will be published when the goal is reached?"
 
-My past as a developer is my reference. My current **SB File Encryptor & Decryptor** repo demonstrates my standards regarding code quality, documentation, and sustainability. I have regularly updated and supported my open-source work without any financial expectations. This milestone is a continuation of this stable workflow I have established.
+Open-source trust is earned through consistency—not promises.
+
+My existing repositories reflect my approach to software engineering, documentation quality, long-term maintenance, and transparency.
+
+Rather than asking the community to trust future intentions, I prefer to demonstrate my standards through the work that is already publicly available today.
 
 ### 🛡️ The "What If" Guarantee: Exclusive Repository Access
 
@@ -304,7 +373,7 @@ Therefore, under these circumstances, my options were quite limited. From those 
 
 ### My Commitment and Beyond the Code
 
-This ecosystem is **100% complete and tested**. This is a value-driven agreement: By supporting this milestone, you are not just funding a project; you are investing in a robust codebase and professional components. From the moment the target amount is reached, I commit to publishing all source codes and custom DLLs within **2 months**. Additionally, at that same time, my existing repository, **SB File Encryptor & Decryptor**, will also be converted to an open-source license.
+This ecosystem is **fully implemented and extensively tested**. This is a value-driven agreement: By supporting this milestone, you are not just funding a project; you are investing in a robust codebase and professional components. From the moment the target amount is reached, I commit to publishing all source codes and custom DLLs within **2 months**. Additionally, at that same time, my existing repository, **SB File Encryptor & Decryptor**, will also be converted to an open-source license.
 
 **Furthermore, when the 1 BTC goal is reached, I will not only publish my projects. I will share a comprehensive retrospective review series on my blog.**
 
@@ -395,7 +464,7 @@ Please read the full [LICENSE](LICENSE) file for complete terms and conditions.
 
 ## 💬 Feedback
 
-Suggestions, bug reports, and improvement ideas are always appreciated.
+Suggestions, bug reports, feature requests, and improvement ideas are always welcome.
 
 **Feedback Form:**
 👉 [https://forms.gle/1r5Ho11SU1vEXY9e9](https://forms.gle/1r5Ho11SU1vEXY9e9)
@@ -411,16 +480,16 @@ Suggestions, bug reports, and improvement ideas are always appreciated.
 [sbprojects.requests@gmail.com](mailto:sbprojects.requests@gmail.com)
 
 ---
+## ⭐ If This Project Was Useful
 
-## ⭐ Support the Project
+If SB File Encryptor & Decryptor helped you, consider supporting its growth.
 
-If you explore or use this project, consider:
+- ⭐ Star the repository
+- 🔄 Share it with others
+- 🐞 Report bugs
+- 💡 Suggest improvements
+- ❤️ Follow the progress of the SB ecosystem
 
-* ⭐ Starring the repository
-* 🐛 Reporting issues
-* 💡 Suggesting improvements
-* 🔄 Sharing the project
+Every contribution—whether technical or simply sharing the project—helps improve the software and makes future development possible.
 
-Your support helps improve visibility, encourages development, and makes the project easier for others to discover.
-
-Thank you for your support.
+Thank you for being part of the journey.
