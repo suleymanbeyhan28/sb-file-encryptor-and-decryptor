@@ -54,47 +54,6 @@ Pre-built executable versions are available in GitHub Releases.
 
 ---
 
-## 🎯 Designed For
-
-SB File Encryptor & Decryptor is designed for anyone who wants complete local ownership of their files.
-
-Perfect for:
-
-- 👤 Individual users protecting personal documents
-- 💼 Freelancers handling client files
-- 🏢 Small businesses managing confidential data
-- 📦 Backup archives
-- 📷 Personal photos and videos
-- 📄 Sensitive PDF and Office documents
-- 💾 External drives and offline storage
-
-Whether you are encrypting a single file or an entire archive, the application is designed to remain intuitive, predictable, and fully under your control.
-
----
-
-## 🔒 Why SB File Encryptor & Decryptor?
-
-SB File Encryptor & Decryptor is a Windows desktop application designed for users who want complete local control over their data.
-
-Unlike cloud-based encryption services, all operations occur directly on your computer.
-
-The interface is designed to be simple and intuitive, allowing you to focus on encrypting or decrypting files without navigating complex settings or unnecessary options.
-
-No technical expertise is required, making the application accessible to users of all experience levels.
-
-### Key Benefits
-
-* 🔐 **AES-256-CBC Encryption** – Industry-standard file encryption.
-* 🔑 **Access Control** – Password-Based Encryption.
-* 📁 **Universal Compatibility** – Compatible with virtually any file type.
-* ⚡ **Efficient Processing** – Fast with real-time progress monitoring.
-* 🚫 **Privacy First** – No cloud services, telemetry, or analytics.
-* 🔒 **Complete Control** – Fully offline operation.
-
-Whether you're protecting personal documents, backups, archives, business files, or confidential information, the application emphasizes security, privacy, reliability, and ease of use.
-
----
-
 ## 🚀 Features
 
 ### File Protection
