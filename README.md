@@ -291,15 +291,6 @@ All accepted contributions may be incorporated into future versions of the proje
 
 ---
 
-## 💬 Feedback
-
-Suggestions, bug reports, feature requests, and improvement ideas are always welcome.
-
-**Feedback Form:**
-👉 [https://forms.gle/1r5Ho11SU1vEXY9e9](https://forms.gle/1r5Ho11SU1vEXY9e9)
-
----
-
 ## 📩 Contact
 
 **🌐 Website / Blog**
